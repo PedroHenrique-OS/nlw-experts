@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas:[
-        "Uma linguagem de programação de alto nível.",
-        "Um software de edição de texto.",
-        "Um sistema operacional.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
-      respostas:[
-        "variable nomeDaVariavel = valor;",
-        "let nomeDaVariavel = valor;",
-        "var nomeDaVariavel = valor;",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é utilizado para exibir uma mensagem de alerta em JavaScript?",
-      respostas:[
-        "console.log()",
-        "alert()",
-        "prompt()",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a maneira correta de comentar uma única linha em JavaScript?",
-      respostas:[
-        "// Este é um comentário de linha única",
-        "<!-- Este é um comentário de linha única -->",
-        "/* Este é um comentário de linha única */",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o operador '==' faz em JavaScript?",
-      respostas:[
-        "Compara se dois valores são idênticos, incluindo tipo.",
-        "Compara se dois valores são idênticos, mas não considera o tipo.",
-        "Atribui um valor a uma variável.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como você escreve 'Hello World!' em um alerta em JavaScript?",
-      respostas:[
-        "alert('Hello World!');",
-        "print('Hello World!');",
-        "console.log('Hello World!');",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual função é usada para obter o comprimento de uma string em JavaScript?",
-      respostas:[
-        "length()",
-        "count()",
-        "length",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador para a exponenciação em JavaScript?",
-      respostas:[
-        "**",
-        "^^",
-        "//",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas:[
-        "pop()",
-        "shift()",
-        "splice()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual declaração é usada para criar uma função em JavaScript?",
-      respostas:[
-        "function: minhaFuncao() {}",
-        "myFunction = function() {}",
-        "function minhaFuncao() {}",
-      ],
-      correta: 2
-    }
-  ];
+  {
+    pergunta: "Qual é o nome do mapa principal em Mobile Legends?",
+    respostas: [
+      "Mapa Abyssal",
+      "Mapa Celestial",
+      "Mapa do Céu"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o herói que é conhecido como o 'Rei das Feras'?",
+    respostas: [
+      "Tigreal",
+      "Balmond",
+      "Gatotkaca"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o objetivo do jogo em Mobile Legends?",
+    respostas: [
+      "Destruir a base inimiga",
+      "Capturar a bandeira",
+      "Coletar moedas de ouro"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quantos jogadores compõem uma equipe em Mobile Legends?",
+    respostas: [
+      "3",
+      "4",
+      "5"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o herói que é conhecido como 'O Mago Supremo'?",
+    respostas: [
+      "Cyclops",
+      "Eudora",
+      "Kagura"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o item que permite aos heróis se teletransportarem para uma torre aliada?",
+    respostas: [
+      "Botas Rápidas",
+      "Espada da Ira",
+      "Inspiração Sagrada"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a habilidade suprema de Miya, a 'Rainha dos Arqueiros'?",
+    respostas: [
+      "Flecha Mágica",
+      "Flecha Dupla",
+      "Flecha Chuvosa"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o herói conhecido como 'O Último Samurai'?",
+    respostas: [
+      "Yi Sun-shin",
+      "Hanzo",
+      "Ling"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o herói que é um robô e pode se transformar em um carro?",
+    respostas: [
+      "Baxia",
+      "Alpha",
+      "Johnson"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do monstro neutro que fornece buffs de dano e velocidade de movimento?",
+    respostas: [
+      "Tartarus",
+      "Argus",
+      "Turtle"
+    ],
+    correta: 2
+  }
+];
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
